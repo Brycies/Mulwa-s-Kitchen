@@ -8,7 +8,6 @@ body {
 }
 
 header {
-  background-color: #800000;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   padding: 1rem;
   position: fixed;
@@ -75,6 +74,7 @@ iframe {
 
 /* Photos Styles */
 .gallery {
+  margin-top: 30px;
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
   grid-gap: 1rem;
