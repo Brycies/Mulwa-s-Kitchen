@@ -1,0 +1,180 @@
+/* General Styles */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #800000;
+  background: url(images/background.jpg);
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #800000;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 1rem;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1;
+}
+
+h1 {
+  font-family: "WindSong", cursive;
+  font-size: 400;
+  margin: 0;
+  font-family: "Times New Roman", Times, serif;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+nav li {
+  margin: 0;
+  padding: 0;
+}
+
+nav a {
+  display: block;
+  padding: 0.5rem;
+  color: #333;
+  text-decoration: none;
+}
+
+nav a:hover {
+  background-color: #ddd;
+}
+
+main {
+  margin-top: 5rem;
+  padding: 2rem;
+}
+
+section {
+  margin-bottom: 2rem;
+}
+
+h2 {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+p {
+  margin: 0.5rem 0;
+}
+
+/* Location Styles */
+iframe {
+  display: block;
+  margin: 0 auto;
+}
+
+/* Photos Styles */
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  grid-gap: 1rem;
+}
+
+.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+/* Menus Styles */
+.tabs {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 1rem;
+}
+
+.tablink {
+  background-color: #fff;
+  border: none;
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.tabcontent {
+  display: none;
+}
+
+.tabcontent.active {
+  display: block;
+}
+
+.tabcontent ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.tabcontent li {
+  margin: 0.5rem 0;
+}
+
+/* Accommodations Styles */
+.accommodation {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  grid-gap: 1rem;
+}
+
+.accommodation img {
+  width: 100%;
+  height: auto;
+}
+
+.accommodation h3 {
+  margin-top: 0.5rem;
+  font-size: 1rem;
+}
+
+.accommodation p {
+  margin: 0.25rem 0;
+}
+
+/* Responsive Styles */
+@media only screen and (max-width: 375px) {
+  header {
+    padding: 0.5rem;
+  }
+
+  h1 {
+    font-size: 1.5rem;
+  }
+
+  nav ul {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  nav a {
+    padding: 0.25rem;
+  }
+
+  main {
+    margin-top: 3rem;
+    padding: 1rem;
+  }
+
+  iframe {
+    max-width: 100%;
+    height: 200px;
+  }
+
+  .gallery {
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+    grid-gap: 0.5rem;
+  }
+
+  .tablink {
+    padding: 0.25rem 0.5rem;
+    font-size: 0.8rem;
+  }
+}
