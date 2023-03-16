@@ -10,42 +10,48 @@ body {
 header {
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   padding: 1rem;
-  position: fixed;
-  top: 0;
-  left: 0;
   width: 100%;
   z-index: 1;
 }
 
 h1 {
   font-family: "WindSong", cursive;
-  font-size: 400;
+  font-size: 2.7rem;
   margin: 0;
-  font-family: "Times New Roman", Times, serif;
+  color: white;
 }
 
 nav ul {
-  list-style: none;
   margin: 0;
   padding: 0;
   display: flex;
-  justify-content: space-between;
+  justify-content: flex-end;
 }
 
 nav li {
-  margin: 0;
-  padding: 0;
+  margin: 0 10px 0 0;
+  padding: 10px;
 }
 
 nav a {
+  font-style: italic;
   display: block;
+  flex-direction: row;
   padding: 0.5rem;
-  color: #333;
+  color: white;
   text-decoration: none;
 }
 
 nav a:hover {
   background-color: #ddd;
+}
+#about-restaurant {
+  margin-top: 20px;
+  color: grey;
+  width: 300px;
+  height: 300px;
+  border-radius: 8px;
+  background-color: white;
 }
 
 main {
