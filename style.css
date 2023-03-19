@@ -188,7 +188,7 @@ iframe {
   margin-top: 30px;
   padding-top: 35px;
   padding-bottom: 30px;
-  background-color: #222;
+  background-color: #800000;
   border-top: 0;
 }
 .panel-footer div.row {
@@ -198,27 +198,34 @@ iframe {
 #address {
   line-height: 2;
   color: white;
+  font-weight: bold;
 }
 #hours > span,
 #address > span {
   font-size: 1.3em;
   color: white;
+  font-weight: bold;
 }
 #address p {
   color: #557c3e;
   font-size: 0.8em;
   line-height: 1.8;
   color: white;
+  font-weight: bold;
 }
 #testimonials {
   font-style: italic;
   color: white;
+  font-weight: bold;
 }
 #testimonials p:nth-child(2),
 p:nth-child(3) {
   margin-top: 25px;
   color: white;
+  font-weight: bold;
 }
 .text-center {
-  color: white;
+  color: black;
+  font-style: italic;
+  font-weight: bold;
 }
