@@ -197,13 +197,14 @@ iframe {
 }
 #hours,
 #address {
+  font-size: 0.8em;
   line-height: 2;
   color: white;
   font-weight: bold;
 }
 #hours > span,
 #address > span {
-  font-size: 1.3em;
+  font-size: 1.2em;
   color: white;
   font-weight: bold;
 }
@@ -215,12 +216,16 @@ iframe {
   font-weight: bold;
 }
 #testimonials {
+  margin-top: -30px;
+  font-size: 0.5rem;
   font-style: italic;
   color: white;
   font-weight: bold;
 }
-#testimonials p:nth-child(2),
+#testimonials p:nth-child(1),
+p:nth-child(2),
 p:nth-child(3) {
+  font-size: 0.8rem;
   margin-top: 25px;
   color: white;
   font-weight: bold;
