@@ -80,15 +80,16 @@ iframe {
 
 /* Photos Styles */
 .gallery {
-  margin-top: 30px;
+  margin-top: 10px;
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
   grid-gap: 1rem;
 }
 
 .gallery img {
-  width: 100%;
+  width: 80%;
   height: auto;
+  border-radius: 5px;
 }
 
 /* Menus Styles */
