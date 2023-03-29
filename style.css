@@ -16,21 +16,26 @@ header {
 
 h1 {
   font-family: "WindSong", cursive;
-  font-size: 2.7rem;
-  margin: 0;
+  font-size: 2.4rem;
+  margin-left: -30px;
   color: white;
 }
 
 nav ul {
-  margin: 0;
   padding: 0;
   display: flex;
-  justify-content: flex-end;
+  width: 700px;
+  float: right;
+  margin-top: -65px;
 }
 
-nav li {
-  margin: 0 10px 0 0;
-  padding: 10px;
+nav ul button {
+  margin-top: 50px;
+  background: none;
+  margin: 10px;
+  border-radius: 20px;
+  border: 1px solid white;
+  font-size: 1em;
 }
 
 nav a {
@@ -42,8 +47,66 @@ nav a {
   text-decoration: none;
 }
 
-nav a:hover {
-  background-color: #ddd;
+nav button:hover {
+  background-color: green;
+}
+#header-nav {
+  background-color: #c98715;
+  border-radius: 0;
+  border: 0;
+}
+
+#header-nav button {
+  margin-top: 22px;
+}
+
+.navbar-default .navbar-toggle:focus,
+.navbar-default .navbar-toggle:hover {
+  background-color: #fce29e;
+}
+
+.navbar-collapse {
+  border-top: 0;
+}
+
+.navbar-brand,
+.navbar-nav li a {
+  line-height: 76px;
+  height: 76px;
+  padding-top: 0;
+}
+
+.navbar-brand h1 {
+  color: #7d1913;
+  font-family: "Abril Fatface", cursive;
+  font-weight: bolder;
+  font-size: 1.8em;
+}
+
+.navbar-brand a:hover {
+  text-decoration: none;
+  text-shadow: 1px 1px 1px #fe9797;
+}
+
+#nav-list {
+  background-color: #e4af34;
+}
+
+#nav-list a {
+  /*text-align: center;*/
+  font-weight: bolder;
+  color: #282828;
+  font-size: 1.2em;
+}
+
+#nav-list a:hover {
+  color: #202020;
+  background-color: #fce29e;
+}
+
+.navbar-header button.navbar-toggle,
+.navbar-header .icon-bar {
+  border: 1px solid #7d1913;
 }
 #about-restaurant {
   margin-top: 20px;
@@ -90,60 +153,6 @@ iframe {
   width: 80%;
   height: auto;
   border-radius: 5px;
-}
-
-/* Menus Styles */
-.tabs {
-  display: flex;
-  justify-content: space-between;
-  margin-bottom: 1rem;
-}
-
-.tablink {
-  background-color: #fff;
-  border: none;
-  padding: 0.5rem 1rem;
-  font-size: 1rem;
-  cursor: pointer;
-}
-
-.tabcontent {
-  display: none;
-}
-
-.tabcontent.active {
-  display: block;
-}
-
-.tabcontent ul {
-  list-style: none;
-  margin: 0;
-  padding: 0;
-}
-
-.tabcontent li {
-  margin: 0.5rem 0;
-}
-
-/* Accommodations Styles */
-.accommodation {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-  grid-gap: 1rem;
-}
-
-.accommodation img {
-  width: 100%;
-  height: auto;
-}
-
-.accommodation h3 {
-  margin-top: 0.5rem;
-  font-size: 1rem;
-}
-
-.accommodation p {
-  margin: 0.25rem 0;
 }
 
 /* Responsive Styles */

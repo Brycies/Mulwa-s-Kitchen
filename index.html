@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>MULWA'S KITCHEN</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="style.css">  
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -12,15 +13,59 @@
   </head>
   <body>
     <header>
-      <h1>Mulwa's Kitchen</h1>
-      <nav>
-        <ul>
-          <li><a href="#location">Location</a></li>
-          <li><a href="#photos">Photos</a></li>
-          <li><a href="#menus">Menus</a></li>
-          <li><a href="#menus">Order Delivery</a></li>
-          <li><a href="#menus">Catering Services</a></li>
-        </ul>
+      <nav id="header-nav" class="navbar navbar-default">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <div class="navbar-brand">
+                    <a href="index.html"><h1>Mulwa's Kitchen</h1></a>
+                </div>
+
+                <button type="button" class="navbar-toggle collapsed visible-xs" data-toggle="collapse" data-target="#collapsable-nav" aria-expanded="false">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+            </div>
+
+            <div id="collapsable-nav" class="collapse navbar-collapse">
+                <ul id="nav-list" class="nav navbar-nav navbar-right visible-xs text-center">
+                    <li>
+                      <button><a href="#location">Location</a></button>
+                    </li>
+                    <li>
+                      <button><a href="#photos">Photos</a></button>
+                    </li>
+                    <li>
+                      <button><a href="#menus">Menus</a></button>
+                    </li>
+                    li>
+                    <button><a href="#menus">Order Delivery</a></button>
+                    </li>
+                    <li>
+                      <button><a href="#menus">Catering Services</a></button>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+
+
+
+      <div class="container">
+       <div class="row">
+        <h1>Mulwa's Kitchen</h1>
+        <nav>
+          <ul>
+            <button><a href="#location">Location</a></button>
+            <button><a href="#photos">Photos</a></button>
+            <button><a href="#menus">Menus</a></button>
+            <button><a href="#menus">Order Delivery</a></button>
+            <button><a href="#menus">Catering Services</a></button>
+          </ul>
+       </div>
+     
        
       </nav>
     </header>
@@ -38,27 +83,7 @@
       </section>
       <section id="menus">
         <h2>Menus</h2>
-        <!-- Menu tabs -->
-        <div class="tabs">
-          <button class="tablink" onclick="openMenu(event, 'breakfast')">
-            Breakfast
-          </button>
-          <button class="tablink" onclick="openMenu(event, 'lunch')">
-            Lunch
-          </button>
-          <button class="tablink" onclick="openMenu(event, 'dinner')">
-            Dinner
-          </button>
-        </div>
-        <!-- Menu content -->
-        <div id="breakfast" class="tabcontent">
-          <h3>Breakfast Menu</h3>
-          <ul>
-            <li><img src="images/Chili-Garlic-Shrimp-Noodles-4.jpg"> - $5.99</li>
-            <li><img src="images/Prawn-Alfredo-Pasta-12.jpg"> - $10.65</li>
-            <li><img src="images/spicy-tomato-shrimp-pasta-3-2fa39fe9.jpg"> - $4.85</li>
-          </ul>
-        </div>
+       
       </section>
     </main>
 
@@ -90,7 +115,10 @@
         <div class="text-center">&copy; Copyright Mulwa's Kitchen</div>
       </div>
     </footer>
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js" integrity="sha384-mQ93GR66B00ZXjt0YO5KlohRA5SY2XofN4zfuZxLkoj1gXtW8ANNCe9d5Y3eG5eD" crossorigin="anonymous"></script>
+  </div>
+  <script src="js/jquery-3.1.1.min.js"></script>
+  <script src="js/bootstrap.min.js"></script> 
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js" integrity="sha384-mQ93GR66B00ZXjt0YO5KlohRA5SY2XofN4zfuZxLkoj1gXtW8ANNCe9d5Y3eG5eD" crossorigin="anonymous"></script>
   </body>
 </html>
