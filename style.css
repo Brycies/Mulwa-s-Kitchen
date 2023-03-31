@@ -1,7 +1,6 @@
 /* General Styles */
 body {
   font-family: Arial, sans-serif;
-  background-color: #800000;
   background: url(images/background.jpg);
   margin: 0;
   padding: 0;
@@ -15,15 +14,13 @@ header {
 }
 
 .navbar-brand h1 {
-}
-.navbar-brand h1 {
+  border: 1px solid #ffff;
   color: #7d1913;
   font-family: "Abril Fatface", cursive;
   font-weight: bolder;
   font-size: 1.8em;
   font-family: "WindSong", cursive;
   font-size: 2.4rem;
-  margin-left: -30px;
   color: white;
 }
 
@@ -33,15 +30,6 @@ nav ul {
   width: 700px;
   float: right;
   margin-top: -65px;
-}
-
-nav ul button {
-  margin-top: 50px;
-  background: none;
-  margin: 10px;
-  border-radius: 20px;
-  border: 1px solid white;
-  font-size: 1em;
 }
 
 nav a {
@@ -57,7 +45,7 @@ nav button:hover {
   background-color: green;
 }
 #header-nav {
-  background-color: #c98715;
+  background: none;
   border-radius: 0;
   border: 0;
 }
@@ -68,7 +56,7 @@ nav button:hover {
 
 .navbar-default .navbar-toggle:focus,
 .navbar-default .navbar-toggle:hover {
-  background-color: #fce29e;
+  background: white;
 }
 
 .navbar-collapse {
@@ -153,6 +141,10 @@ iframe {
   height: auto;
   border-radius: 5px;
 }
+#about-restaurant {
+  color: #ffff;
+  max-width: fit-content;
+}
 
 /* Responsive Styles */
 @media only screen and (max-width: 375px) {
@@ -162,6 +154,7 @@ iframe {
 
   h1 {
     font-size: 1.5rem;
+    margin-left: 0;
   }
 
   nav ul {
@@ -186,6 +179,9 @@ iframe {
   .gallery {
     grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
     grid-gap: 0.5rem;
+  }
+  .gallery img {
+    size: 2em;
   }
 
   .tablink {
