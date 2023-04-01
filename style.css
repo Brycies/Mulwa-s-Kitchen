@@ -1,7 +1,7 @@
 /* General Styles */
 body {
   font-family: Arial, sans-serif;
-  background: url(images/background.jpg);
+  background: url(images/istockpasta2-1166258781-612x612.jpg);
   margin: 0;
   padding: 0;
 }
@@ -25,11 +25,12 @@ header {
 }
 
 nav ul {
+  border: 1px solid #fff;
   padding: 0;
   display: flex;
   width: 700px;
   float: right;
-  margin-top: -65px;
+  align-items: center;
 }
 
 nav a {
@@ -95,6 +96,38 @@ nav button:hover {
 .navbar-header .icon-bar {
   border: 1px solid #7d1913;
 }
+.tabs {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 1rem;
+}
+
+.tablink {
+  background-color: #fff;
+  border: none;
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.tabcontent {
+  display: none;
+}
+
+.tabcontent.active {
+  display: block;
+}
+
+.tabcontent ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.tabcontent li {
+  margin: 0.5rem 0;
+}
+
 #about-restaurant {
   margin-top: 20px;
   color: grey;
@@ -161,9 +194,12 @@ iframe {
     flex-direction: column;
     align-items: center;
   }
+  nav ul li {
+    border: 1px solid black;
+  }
 
   nav a {
-    padding: 0.25rem;
+    padding: 0;
   }
 
   main {
@@ -189,6 +225,9 @@ iframe {
     font-size: 0.8rem;
   }
 }
+@media only screen and (max-width: 576px) {
+}
+
 .panel-footer {
   margin-top: 30px;
   padding-top: 35px;
