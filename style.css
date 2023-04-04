@@ -13,9 +13,8 @@ header {
   z-index: 1;
 }
 
-.navbar-brand h1 {
-  border: 1px solid #ffff;
-  color: #7d1913;
+.navbar-brand a h1 {
+  margin-left: 0;
   font-family: "Abril Fatface", cursive;
   font-weight: bolder;
   font-size: 1.8em;
@@ -41,10 +40,6 @@ nav a {
   padding: 0.5rem;
   color: white;
   text-decoration: none;
-}
-
-nav button:hover {
-  background-color: green;
 }
 #header-nav {
   background: none;
@@ -74,7 +69,6 @@ nav button:hover {
 
 .navbar-brand a:hover {
   text-decoration: none;
-  text-shadow: 1px 1px 1px #fe9797;
 }
 
 #nav-list {
@@ -227,6 +221,8 @@ iframe {
   }
 }
 @media only screen and (max-width: 576px) {
+  .navbar-brand a h1 {
+  }
 }
 
 .panel-footer {
