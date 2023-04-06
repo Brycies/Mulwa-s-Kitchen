@@ -227,6 +227,23 @@ iframe {
     font-family: "WindSong", cursive;
     color: white;
   }
+  nav ul {
+    border: 1px solid #fff;
+    padding: 0;
+    display: flex;
+    width: 700px;
+    float: right;
+    align-items: center;
+  }
+
+  nav a {
+    font-style: italic;
+    display: block;
+    flex-direction: row;
+    padding: 0.5rem;
+    color: white;
+    text-decoration: none;
+  }
 }
 
 .panel-footer {
