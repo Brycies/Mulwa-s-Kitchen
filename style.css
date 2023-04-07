@@ -244,6 +244,31 @@ iframe {
     color: white;
     text-decoration: none;
   }
+  header-nav {
+    background: none;
+    border-radius: 0;
+    border: 0;
+  }
+
+  #header-nav button {
+    margin-top: 22px;
+  }
+
+  .navbar-default .navbar-toggle:focus,
+  .navbar-default .navbar-toggle:hover {
+    background: white;
+  }
+
+  .navbar-collapse {
+    border-top: 0;
+  }
+
+  .navbar-brand,
+  .navbar-nav li a {
+    line-height: 76px;
+    height: 76px;
+    padding-top: 0;
+  }
 }
 
 .panel-footer {
