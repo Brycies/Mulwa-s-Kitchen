@@ -211,14 +211,13 @@ iframe {
   }
   .gallery img {
     size: 2em;
+    margin-left: 20px;
   }
 
   .tablink {
     padding: 0.25rem 0.5rem;
     font-size: 0.8rem;
   }
-}
-@media only screen and (max-width: 576px) {
 }
 
 .panel-footer {
