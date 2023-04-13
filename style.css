@@ -228,11 +228,6 @@ iframe {
     font-size: 2rem;
     margin-left: 0;
   }
-
-  nav ul {
-    flex-direction: column;
-    align-items: center;
-  }
 }
 
 .panel-footer {
