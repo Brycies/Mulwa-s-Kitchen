@@ -237,10 +237,7 @@ iframe {
     grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
     grid-gap: 0.5rem;
   }
-  .gallery img {
-    size: 2em;
-    margin-left: 20px;
-  }
+  
 }
 
 .panel-footer {
