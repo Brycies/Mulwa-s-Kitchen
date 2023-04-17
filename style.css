@@ -228,11 +228,6 @@ iframe {
     font-size: 2rem;
     margin-left: 0;
   }
-
-  .gallery {
-    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
-    grid-gap: 0.5rem;
-  }
 }
 
 .panel-footer {
